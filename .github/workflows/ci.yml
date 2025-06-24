@@ -35,3 +35,6 @@ jobs:
 
       - name: Run format test
         run: test -z $(go fmt ./...)
+
+      - name: format files
+        run: go fmt ./...
